@@ -41,6 +41,9 @@ spec:
       - name: catalogue
         image: shanmukhatadisetti/catalogue:v1
         imagePullPolicy: Always
+        envFrom:
+        - configMapRef:
+            name: catalogue
         ports:
         - name: catalogue
           containerPort: 8080
