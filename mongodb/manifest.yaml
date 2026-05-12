@@ -24,6 +24,6 @@ spec:
         tier: db
         env: dev
       spec:
-        conatiners:
+        containers:
         - name: mongodb
           image: shanmukhatadisetti/mongodb:v1
