@@ -45,7 +45,7 @@ spec:
         imagePullPolicy: Always
         envFrom:
         - secretRef:
-          name: rabbitmq
+            name: rabbitmq
         readinessProbe:
           tcpSocket:
             port: 5672
