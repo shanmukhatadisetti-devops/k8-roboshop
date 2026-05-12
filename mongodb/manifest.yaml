@@ -23,7 +23,7 @@ spec:
         component: mongodb
         tier: db
         env: dev
-      spec:
-        containers:
-        - name: mongodb
-          image: shanmukhatadisetti/mongodb:v1
+    spec:
+      containers:
+      - name: mongodb
+        image: shanmukhatadisetti/mongodb:v1
