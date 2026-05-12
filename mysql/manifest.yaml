@@ -31,12 +31,12 @@ spec:
         readinessProbe:
           tcpSocket:
             port: 3306
-          initialDelaySeconds: 20
+          initialDelaySeconds: 40
           periodSeconds: 10
         livenessProbe:
           tcpSocket:
             port: 3306
-          initialDelaySeconds: 30
+          initialDelaySeconds: 60
           periodSeconds: 10
 ---
 apiVersion: v1
